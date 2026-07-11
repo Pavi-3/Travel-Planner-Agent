@@ -6,7 +6,7 @@ An AI-powered travel planning web application backed by **IBM Watsonx.ai** with 
 
 | Capability | Details |
 |---|---|
-| 🤖 AI Chat | Full conversation with Granite 3.3 · multi-turn context · streaming responses |
+| 🤖 AI Chat | Full conversation with Granite · multi-turn context · streaming responses |
 | 🗺️ Destination Search | Score-ranked suggestions by style, budget, season, group size |
 | 📅 Itinerary Builder | Day-by-day time-blocked plans with alternatives |
 | 🚌 Transport Comparison | Flights · trains · buses · car rental with booking links |
@@ -179,4 +179,4 @@ Conversation history (last 20 messages) is maintained per session for multi-turn
 
 ---
 
-*Made with IBM Watsonx.ai · Granite 3.3 · Express · TypeScript*
+*Made with IBM Watsonx.ai · Granite · Express · TypeScript*
