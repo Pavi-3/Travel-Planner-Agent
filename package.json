@@ -1,0 +1,30 @@
+{
+  "name": "wanderlog-agent",
+  "version": "1.0.0",
+  "description": "Wanderlog — AI-powered travel planner web app using IBM Watsonx.ai Granite",
+  "type": "module",
+  "main": "./build/server.js",
+  "bin": {
+    "wanderlog-agent": "./build/server.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node build/server.js",
+    "dev": "tsc --watch"
+  },
+  "files": ["build", "public"],
+  "dependencies": {
+    "@ibm-cloud/watsonx-ai": "^1.4.2",
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^4.21.2",
+    "zod": "^3.25.23"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.3",
+    "@types/node": "^22.15.21",
+    "typescript": "^5.8.3"
+  }
+}
